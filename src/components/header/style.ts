@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const Container = styled.header`
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 15px;
   background-color: pink;
 `
 
@@ -17,11 +17,7 @@ export const Nav = styled.nav`
 `
 
 export const NavItem = styled.a`
-    margin-left: 10px;
     color: #333;
     text-decoration: none;
     cursor: pointer;
-    &:hover {
-        color: #f00;
-    }
 `
