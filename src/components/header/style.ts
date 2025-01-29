@@ -5,7 +5,7 @@ export const Container = styled.header`
   align-items: center;
   width: 100%;
   padding: 15px;
-  background-color: yellowgreen;
+  background-color: #fff;
   margin: 0;
   position: fixed;
   top: 0;
@@ -17,7 +17,6 @@ export const Logo = styled.img`
   width: 110px;
   height: auto;
   margin-left: 4rem;
-  align-items: center;
 `
 
 export const Nav = styled.nav`
@@ -30,4 +29,25 @@ export const NavItem = styled.a`
   cursor: pointer;
   font-size: 0.8rem;
   padding: 0.7rem;
+  position: relative;
+  text-decoration: none; /* 기본 밑줄 없애기 */
+
+  &:hover {
+    color: black;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    visibility: hidden;
+  }
+
+  &:hover::after {
+    visibility: visible;
+  }
 `
