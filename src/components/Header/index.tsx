@@ -1,8 +1,11 @@
+import * as S from './style';
+import Logo from '/assets/Logo.png';
+
 const Header = () => {
     return (
-        <div>
-            <h1>안녕</h1>
-        </div>
+        <S.Container>
+            <S.Logo src={Logo} alt="로고" />
+        </S.Container>
     )
 }
 

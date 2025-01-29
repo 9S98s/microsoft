@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.footer`
-    background-color: #333;
+    background-color: gray;
     color: #fff;
     text-align: center;
     padding: 1rem;
