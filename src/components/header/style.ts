@@ -30,7 +30,7 @@ export const NavItem = styled.a`
   font-size: 0.8rem;
   padding: 0.7rem;
   position: relative;
-  text-decoration: none; /* 기본 밑줄 없애기 */
+  text-decoration: none;
 
   &:hover {
     color: black;
