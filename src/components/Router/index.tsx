@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../../pages/Home';
 
-const router = () => {
+const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
@@ -11,4 +11,4 @@ const router = () => {
     )
 }
 
-export default router
+export default Router

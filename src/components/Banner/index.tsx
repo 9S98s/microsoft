@@ -1,7 +1,7 @@
 import * as S from './style';
 import BannerImg from '/assets/Banner.png';
 
-const BannerComponent = () => {
+const Banner = () => {
   return (
     <S.Container>
       <S.Banner src={BannerImg} alt="배너 이미지" />
@@ -14,4 +14,4 @@ const BannerComponent = () => {
   );
 };
 
-export default BannerComponent;
+export default Banner;
