@@ -5,7 +5,7 @@ export const Container = styled.header`
   align-items: center;
   width: 100%;
   padding: 15px;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0;
   position: fixed;
   top: 0;
