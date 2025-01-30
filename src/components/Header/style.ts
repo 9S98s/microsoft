@@ -11,20 +11,20 @@ export const Container = styled.header`
   top: 0;
   left: 0;
   right: 0;
-`;
+`
 
 export const Logo = styled.img`
   width: 110px;
   height: auto;
   margin-left: 4rem;
-`;
+`
 
 export const Nav = styled.nav`
   margin-left: 1rem;
   margin-top: 0.4rem;
   display: flex;
   gap: 1rem;
-`;
+`
 
 export const NavItem = styled.a`
   color: #333;
@@ -55,4 +55,4 @@ export const NavItem = styled.a`
     width: 100%;
     left: 0;
   }
-`;
+`
