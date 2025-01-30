@@ -1,6 +1,6 @@
 import * as S from './style';
 
-const footer = () => {
+const Footer = () => {
     return (
         <S.Container>
             <>푸터 영역</>
@@ -8,4 +8,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default Footer

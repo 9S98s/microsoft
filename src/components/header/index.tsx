@@ -1,7 +1,7 @@
 import * as S from './style';
 import Logo from '/assets/Logo.png';
 
-const header = () => {
+const Header = () => {
     return (
         <S.Container>
             <S.Logo src={Logo} alt="로고" />
@@ -19,4 +19,4 @@ const header = () => {
     )
 }
 
-export default header
+export default Header
